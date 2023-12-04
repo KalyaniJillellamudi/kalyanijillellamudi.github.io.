@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hotel Booking</title>
+</head>
+
+<body>
+    <header>
+        <h1>Hotel Booking Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rooms</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="search">
+        <input type="text" placeholder="Search...">
+        <button onclick="search()">Search</button>
+    </section>
+
+    <section id="filters">
+        <label>Sort by:</label>
+        <select id="sort">
+            <option value="price">Price</option>
+            <option value="rating">Rating</option>
+        </select>
+    </section>
+
+    <section id="rooms">
+        <!-- Room cards will be dynamically generated here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Hotel Booking. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
